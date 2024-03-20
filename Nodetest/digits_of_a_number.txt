@@ -1,0 +1,63 @@
+const prompt = require('prompt-sync')();
+var num = prompt('Enter the number:');
+
+var Final =" ";
+var Quotient = num;
+
+if(Quotient != 0)
+{
+  var rem = Quotient % 10;
+  var Quotient = Quotient / 10;
+
+  if(rem == 0)
+  {
+    var final = "Zero" + final;
+    console.log(final);
+  }
+  if(rem == 1)
+  {
+    var final = "One" + final;
+    console.log(final);
+  }
+  if(rem == 2)
+  {
+    var final = "Two" + final;
+    console.log(final);
+  }
+  if(rem == 3)
+  {
+    var final = "Three" + final;
+    console.log(final);
+  }
+  if(rem == 4)
+  {
+    var final = "Zero" + final;
+    console.log(final);
+  }
+  if(rem == 5)
+  {
+    var final = "Five" + final;
+    console.log(final);
+  }
+  if(rem == 6)
+  {
+    var final = "Six" + final;
+    console.log(final);
+  }
+  if(rem == 7)
+  {
+    var final = "Seven" + final;
+    console.log(final);
+  }
+  if(rem == 8)
+  {
+    var final = "Eight" + final;
+    console.log(final);
+  }
+  if(rem == 9)
+  {
+    var final = "Nine" + final;
+    console.log(final);
+  }
+}
+
